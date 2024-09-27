@@ -27,6 +27,7 @@
           pkgs.purescript-language-server
           pkgs.spago-unstable
           pkgs.watchexec
+          pkgs.nodePackages.live-server
         ];
       };
     };
