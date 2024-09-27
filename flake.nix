@@ -18,6 +18,7 @@
 
         buildInputs = [
           pkgs.esbuild
+          pkgs.just
           pkgs.nodejs_20
           pkgs.nixpkgs-fmt
           pkgs.purs
@@ -25,6 +26,7 @@
           pkgs.purs-backend-es
           pkgs.purescript-language-server
           pkgs.spago-unstable
+          pkgs.watchexec
         ];
       };
     };
