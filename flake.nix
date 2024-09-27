@@ -9,7 +9,7 @@
   outputs = { self, nixpkgs, purescript-overlay }:
     let
       name = "procenak";
-      system = builtins.currentSystem;
+      system = "x86_64-linux";
       overlays = [ purescript-overlay.overlays.default ];
       pkgs = import nixpkgs { inherit system overlays; };
     in {
